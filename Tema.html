@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url("background1.jpg");
+        color: white;
+        repeat: no-repeat;
+        font-size: 18px;
+      }
+      input[type="image"] {
+        width: 220px;
+        height: 270px;
+      }
+      .aboba {
+        background-color: gray;
+        width: 765px;
+      }
+      fieldset {
+        background-color: gray;
+        display: inline-block;
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      select {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 align="center">Виберіть зовнішність персонажа гри</h2>
+    <fieldset class="aboba" align="center">
+      <h1>Нікнейм вашого персонажа</h1>
+      <input align="center" type="text" placeholder="Введіть нікнейм" />
+      <input align="center" type="password" placeholder="Введіть пароль" />
+      <br />
+      <input type="image" src="player.png" />
+      <input type="image" src="player2.png" />
+      <input type="image" src="player3.png" />
+    </fieldset>
+    <fieldset align="center">
+      <legend>Основні характеристики та персонажa</legend>
+      <p>Стать персонажа</p>
+      <input type="radio" name="gg" />Чоловіча
+      <input type="radio" name="gg" />Жіноча
+      <p>Раса:</p>
+      <select>
+        <option>Людина</option>
+        <option>Орк</option>
+        <option>Ельф</option>
+      </select>
+      <p>Клас</p>
+      <select>
+        <option>Лучник</option>
+        <option>Варвар</option>
+        <option>Ближнік</option>
+      </select>
+      <p>Виберіть додаткові можливості</p>
+      <input type="checkbox" />Телеполрт <input type="checkbox" />Можливість
+      літати <input type="checkbox" />Швидкий біг
+      <input type="checkbox" />Високі стрибки
+      <fieldset align="center">
+        <legend>Додаткові навики персонажа</legend>
+        <select>
+          <option>Крит удар</option>
+          <option>Дальній удар</option>
+        </select>
+        <select>
+          <option>Камя'на шкіра</option>
+          <option>Невидемість</option>
+        </select>
+      </fieldset>
+    </fieldset>
+  </body>
+</html>
